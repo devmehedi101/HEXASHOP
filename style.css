@@ -391,3 +391,51 @@ body{
 .icon .fa-brands:hover{
     color: bisque;
 }
+
+/* +++++++++++++++++++++ */
+
+@media (max-width: 1230px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            'h h h h'
+            'm m ma ma'
+            'r r f f';
+        gap: 10px;
+
+        /* grid-template-areas:
+        'h h m ma'
+        'h h r f'; */
+        
+    }
+
+    
+}
+
+
+
+
+
+
+
+.images{
+    width: 100%;
+}
+.images img{
+    width: 100%;
+}
+.image{
+    width: 100%;
+}
+.image img{
+    width: 100%;
+}
+
+
+
+
+
+
+
