@@ -343,15 +343,51 @@ body{
     transition: ease-in-out 1s;
 }
 /* +++++++++++++++++++++++++++++++ */
+/* foorter top area */
+
+.footer-area{
+    background-color: #000;
+    padding: 80px 0;
+}
+.footer-area hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.fppter-top{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom-item1 h3{
+    color: #FFF;
+    font-size: 25px;
+}
+.bottom-item1 p{
+    font-size: 15px;
+    color: #FFF;
+}
 
 
+/* footer-bottom area */
 
+.footer-bottom{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-bottom p{
+    color: #FFF;
+    font-size: 19px;
 
-
-
-
-
-
-
-
-
+}
+.icon .fa-brands{
+    color: #FFF;
+    font-size: 30px;
+    padding-top: 50px;
+    margin: 0 25px;
+}
+.icon .fa-brands:hover{
+    color: bisque;
+}
